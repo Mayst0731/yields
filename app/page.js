@@ -1,5 +1,5 @@
 
-import ButtonLogin from "./components/ButtonLogin";
+import ButtonLogin from "@/components/ButtonLogin";
 export default function Dashboard() {
   return (
     <main>
