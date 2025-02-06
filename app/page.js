@@ -2,7 +2,7 @@ import ButtonLogin from "@/components/ButtonLogin";
 
 export default function Home() {
   const name = "Shermaine";
-  const isLoggedin = false;
+  const isLoggedin = true;
   return (
     <main>
       <section className="px-8 text-center py-32 max-w-3xl mx-auto">
@@ -12,7 +12,6 @@ export default function Home() {
           build products your customers will love.
         </div>
         <ButtonLogin isLoggedin={isLoggedin} name = {name}/>
-        <p>Hey {name} 👋🏻 </p>
         {console.log(`Hey ${name} 🌟 `)}
       </section>
     </main>
