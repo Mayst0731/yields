@@ -1,5 +1,5 @@
 
-import Link from "next/link";
+import ButtonLogin from "./components/ButtonLogin";
 export default function Dashboard() {
   return (
     <main>
@@ -8,7 +8,7 @@ export default function Dashboard() {
         Create a feedback board in minutes, priorotize features, and 
         build products your customers will love.
       </div>
-      <Link href="/dashboard">Dashboard</Link>
+      <ButtonLogin></ButtonLogin>
     </main>
   );
 }
