@@ -11,6 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      {/* include all the other pages, can add reusable component in this file */}
       <body className={inter.className}>{children}</body>
     </html>
   );
