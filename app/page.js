@@ -1,5 +1,5 @@
 
-import Image from "next/image";
+import Link from "next/link";
 export default function Dashboard() {
   return (
     <main>
@@ -8,7 +8,7 @@ export default function Dashboard() {
         Create a feedback board in minutes, priorotize features, and 
         build products your customers will love.
       </div>
-      <a href="/dashboard">Dashboard</a>
+      <Link href="/dashboard">Dashboard</Link>
     </main>
   );
 }
