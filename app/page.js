@@ -31,6 +31,17 @@ export default function Home() {
         {console.log(`Hey ${name} 🌟 `)}
       </section>
       {/* Pricing */}
+      <section className="bg-base-200">
+        <div className="py-32 px-8 max-w-3xl mx-auto">
+          <p className="text-sm uppercase font-medium text-center text-primary mb-4">Pricing</p>
+          <h2 className="text-3xl lg:text-4xl font-extrabold mb-12 text-center">
+            A pricing that adapts to your needs
+          </h2>
+          <div className="p-8 bg-base-100 w-96 rounded-3xl max-auto">
+            <div></div>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
