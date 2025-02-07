@@ -5,6 +5,7 @@ export default function Home() {
   const isLoggedin = true;
   return (
     <main>
+      {/* Header */}
       <section className="bg-pink-200">
         <div className="flex justify-between items-center px-6 py-3 max-w-3xl mx-auto">
           <div className="font-bold">
@@ -19,6 +20,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* Hero */}
       <section className="px-8 text-center py-32 max-w-3xl mx-auto">
         <h1 className="text-3xl lg:text-5xl font-extrabold mb-6">Collect customer feedback to build better products</h1>
         <div className="opacity-90 mb-10">
@@ -28,6 +30,7 @@ export default function Home() {
         <ButtonLogin isLoggedin={isLoggedin} name = {name}/>
         {console.log(`Hey ${name} 🌟 `)}
       </section>
+      {/* Pricing */}
     </main>
   );
 }
