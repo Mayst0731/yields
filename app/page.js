@@ -8,9 +8,9 @@ export default function Home() {
       <section className="bg-pink-200">
         <div className="flex justify-between items-center px-6 py-3 max-w-3xl mx-auto">
           <div className="font-bold">
-            YieldFirst
+            Yield First
           </div>
-          <div className="space-x-4">
+          <div className="space-x-4 max-md:hidden">
             <a className="link link-hover">Price</a>
             <a className="link link-hover">FAQ</a>
           </div>
@@ -20,7 +20,7 @@ export default function Home() {
         </div>
       </section>
       <section className="px-8 text-center py-32 max-w-3xl mx-auto">
-        <h1 className="text-3xl font-extrabold mb-6">Collect customer feedback to build better products</h1>
+        <h1 className="text-3xl lg:text-5xl font-extrabold mb-6">Collect customer feedback to build better products</h1>
         <div className="opacity-90 mb-10">
           Create a feedback board in minutes, priorotize features, and 
           build products your customers will love.
