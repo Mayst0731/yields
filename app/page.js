@@ -71,7 +71,7 @@ export default function Home() {
                 </svg>
                 24/7 support</li>
             </ul>
-            <ButtonLogin isLoggedin={isLoggedin} name = {name}/>
+            <ButtonLogin isLoggedin={isLoggedin} name = {name} extraStyle={"w-full"}/>
 
           </div>
         </div>
