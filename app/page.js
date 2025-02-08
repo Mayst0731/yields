@@ -49,11 +49,10 @@ export default function Home() {
               <div className="uppercase text-sm font-medium opacity-60">/month</div>
             </div>
             
-            <ul className="space-y-2">  
-              <ListItems text="Collects customers feedback"/>
-              <ListItems text="Unlimited boards"/>
-              <ListItems text="Admin dashboard" />
-              <ListItems text="24/7 support" />
+            <ul className="space-y-2">
+              {
+                ["Collects customers feedback", "Unlimited boards", "Admin dashboard", "24/7 support"].map((service)=><ListItems>{service}</ListItems>)
+              }
             </ul>
             <ButtonLogin isLoggedin={isLoggedin} name = {name} extraStyle={"w-full"}/>
 
