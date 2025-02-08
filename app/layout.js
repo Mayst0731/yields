@@ -10,7 +10,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" data-theme="valentine">
+    <html lang="en" data-theme="valentine" className="scroll-smooth">
       {/* include all the other pages, can add reusable component in this file */}
       <body className={inter.className}>{children}</body>
     </html>
