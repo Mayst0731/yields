@@ -17,7 +17,7 @@ export default function Home() {
     <main>
       {/* Header */}
       <section className="bg-pink-200">
-        <div className="flex justify-between items-center px-6 py-3 max-w-3xl mx-auto">
+        <div className="flex justify-between items-center px-6 py-3 max-w-5xl mx-auto">
           <div className="font-bold">
             Yield First
           </div>
@@ -31,7 +31,7 @@ export default function Home() {
         </div>
       </section>
       {/* Hero */}
-      <section className="px-8 text-center py-32 max-w-3xl mx-auto flex flex-col">
+      <section className="px-8 text-center py-32 max-w-5xl mx-auto flex flex-col">
         <div>
           <h1 className="text-3xl lg:text-5xl font-extrabold mb-6">Collect customer feedback to build better products</h1>
           <div className="opacity-90 mb-10">
@@ -41,7 +41,7 @@ export default function Home() {
         </div>
 
         <div className="flex flew-row gap-14 justify-between place-items-center">
-          <div><Image src={capybara} alt="capybara is trying this product" className=""/></div>
+          <div><Image src={capybara} alt="capybara is trying this product"/></div>
           <div><Image src={mayflower} alt="mayflower loves it"/></div>
           <div><Image src={froggie} alt="froggie enjoys it"/></div>
         </div>
@@ -51,7 +51,7 @@ export default function Home() {
       </section>
       {/* Pricing */}
       <section className="bg-base-200" id="Pricing">
-        <div className="py-32 px-8 max-w-3xl mx-auto">
+        <div className="py-32 px-8 max-w-3xl mx-auto flex flex-col justify-center items-center">
           <p className="text-sm uppercase font-medium text-center text-primary mb-4">Pricing</p>
 
           <h2 className="text-3xl lg:text-4xl font-extrabold mb-12 text-center">
