@@ -3,9 +3,9 @@ import ListItems from "@/components/ListItems";
 import FaqData  from "@/data/faq.json";
 import FAQListItems from "@/components/FAQListItems";
 import Image from "next/image";
-import capybara from "./static/capybara.png";
-import mayflower from "./static/mayflower.png";
-import froggie from "./static/FroggieChadDoodle.png"
+import capybara from "../public/assets/capybara.png";
+import mayflower from "../public/assets/mayflower.png";
+import froggie from "../public/assets/FroggieChadDoodle.png"
 
 export default function Home() {
   const name = "Shermaine";
