@@ -19,7 +19,7 @@ export default function Home() {
           </div>
           <div className="space-x-4 max-md:hidden">
             <a className="link link-hover" href="#Pricing">Pricing</a>
-            <a className="link link-hover" href="FAQ">FAQ</a>
+            <a className="link link-hover" href="#FAQ">FAQ</a>
           </div>
           <div>
             <ButtonLogin isLoggedin={isLoggedin} name = {name}/>
