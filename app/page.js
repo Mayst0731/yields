@@ -51,11 +51,10 @@ export default function Home() {
             
             <ul className="space-y-2">
               {
-                ["Collects customers feedback", "Unlimited boards", "Admin dashboard", "24/7 support"].map((service)=><ListItems>{service}</ListItems>)
+                ["Collects customers feedback", "Unlimited boards", "Admin dashboard", "24/7 support"].map((service)=><ListItems key={service}>{service}</ListItems>)
               }
             </ul>
             <ButtonLogin isLoggedin={isLoggedin} name = {name} extraStyle={"w-full"}/>
-
           </div>
         </div>
       </section>
