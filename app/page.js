@@ -18,8 +18,8 @@ export default function Home() {
             Yield First
           </div>
           <div className="space-x-4 max-md:hidden">
-            <a className="link link-hover">Price</a>
-            <a className="link link-hover">FAQ</a>
+            <a className="link link-hover" href="#Pricing">Pricing</a>
+            <a className="link link-hover" href="FAQ">FAQ</a>
           </div>
           <div>
             <ButtonLogin isLoggedin={isLoggedin} name = {name}/>
@@ -37,7 +37,7 @@ export default function Home() {
         {console.log(greetings)}
       </section>
       {/* Pricing */}
-      <section className="bg-base-200">
+      <section className="bg-base-200" id="Pricing">
         <div className="py-32 px-8 max-w-3xl mx-auto">
           <p className="text-sm uppercase font-medium text-center text-primary mb-4">Pricing</p>
 
@@ -62,7 +62,7 @@ export default function Home() {
       </section>
 
       {/* FAQ */}
-      <section className="bg-base-300">
+      <section className="bg-base-300" id="FAQ">
         <div className="py-32 px-8 max-w-3xl mx-auto">
           <p className="text-sm uppercase font-medium text-center text-primary mb-4">FAQ</p>
 
