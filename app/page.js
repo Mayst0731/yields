@@ -31,17 +31,23 @@ export default function Home() {
         </div>
       </section>
       {/* Hero */}
-      <section className="px-8 text-center py-32 max-w-3xl mx-auto">
-        <Image src={capybara} alt="capybara is trying this product"/>
-        <Image src={mayflower} alt="mayflower loves it"/>
-        <Image src={froggie} alt="froggie enjoys it"/>
-        <h1 className="text-3xl lg:text-5xl font-extrabold mb-6">Collect customer feedback to build better products</h1>
-        <div className="opacity-90 mb-10">
-          Create a feedback board in minutes, priorotize features, and 
-          build products your customers will love.
+      <section className="px-8 text-center py-32 max-w-3xl mx-auto flex flex-col">
+        <div>
+          <h1 className="text-3xl lg:text-5xl font-extrabold mb-6">Collect customer feedback to build better products</h1>
+          <div className="opacity-90 mb-10">
+            Create a feedback board in minutes, priorotize features, and 
+            build products your customers will love.
+          </div>
         </div>
+
+        <div className="flex flew-row gap-14 justify-between place-items-center">
+          <div><Image src={capybara} alt="capybara is trying this product" className=""/></div>
+          <div><Image src={mayflower} alt="mayflower loves it"/></div>
+          <div><Image src={froggie} alt="froggie enjoys it"/></div>
+        </div>
+        
         <ButtonLogin isLoggedin={isLoggedin} name = {name}/>
-        {console.log(greetings)}
+
       </section>
       {/* Pricing */}
       <section className="bg-base-200" id="Pricing">
